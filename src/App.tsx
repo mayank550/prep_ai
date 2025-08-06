@@ -1,11 +1,18 @@
 // import React from 'react'
 import { Button } from './components/ui/button'
+import { BrowserRouter as Router,Routes,Route } from 'react-router'
 
 const App = () => {
   return (
-    <div className="text-blue-500">
-       <Button variant={"destructive"}>click me</Button>
-    </div>
+     <Router>
+      <Routes>
+        {/* public routes*/}
+
+
+        {/* private routes*/}
+
+      </Routes>
+     </Router>
   )
 }
 

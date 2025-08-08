@@ -1,4 +1,4 @@
-import { Container } from '@/components/ui/container'
+import { Container } from '@/components/container'
 import Footer from '@/components/ui/footer'
 import Header from '@/components/ui/header'
 
@@ -10,7 +10,7 @@ export const MainLayout = () => {
         {/*handler to store user data*/}
         <Header/>
 
-        <Container clasName="flex-grow">
+        <Container className="flex-grow">
          <main className="flex-grow">
             <Outlet/>
          </main>
